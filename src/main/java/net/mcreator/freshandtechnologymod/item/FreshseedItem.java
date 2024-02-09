@@ -17,16 +17,6 @@ public class FreshseedItem extends Item {
 	}
 
 	@Override
-	public boolean hasCraftingRemainingItem() {
-		return true;
-	}
-
-	@Override
-	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
-		return new ItemStack(this);
-	}
-
-	@Override
 	public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 		return 10f;
 	}

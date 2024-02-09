@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa ",
+    "aab",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "fresh_and_technology_mod:blood_seed"
+    },
+    "b": {
+      "item": "fresh_and_technology_mod:pestal"
+    },
+    "c": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "fresh_and_technology_mod:blooddust",
+    "count": 1
+  }
+}

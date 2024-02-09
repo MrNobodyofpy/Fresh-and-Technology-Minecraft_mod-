@@ -22,8 +22,16 @@ public class FreshAndTechnologyModModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(FreshAndTechnologyModModItems.BLOODDUST.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(FreshAndTechnologyModModItems.FRESH_SEED.get());
+			tabData.accept(FreshAndTechnologyModModItems.BLOOD_SEED.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(FreshAndTechnologyModModItems.PESTAL.get());
 		}
 	}
 }

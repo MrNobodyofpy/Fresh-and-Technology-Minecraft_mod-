@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.freshandtechnologymod.init.FreshAndTechnologyModModTabs;
+import net.mcreator.freshandtechnologymod.init.FreshAndTechnologyModModMobEffects;
 import net.mcreator.freshandtechnologymod.init.FreshAndTechnologyModModItems;
 
 import java.util.function.Supplier;
@@ -53,6 +54,8 @@ public class FreshAndTechnologyModMod {
 		FreshAndTechnologyModModItems.REGISTRY.register(bus);
 
 		FreshAndTechnologyModModTabs.REGISTRY.register(bus);
+
+		FreshAndTechnologyModModMobEffects.REGISTRY.register(bus);
 
 	}
 

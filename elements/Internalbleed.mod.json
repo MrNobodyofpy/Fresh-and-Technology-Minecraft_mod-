@@ -1,0 +1,20 @@
+{
+  "_fv": 57,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Internal bleed",
+    "icon": "internal_bleeding_effect.png",
+    "color": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "Internal_bleed_effect_1"
+    }
+  }
+}

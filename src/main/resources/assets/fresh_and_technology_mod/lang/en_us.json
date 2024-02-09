@@ -1,3 +1,6 @@
 {
-  "item.fresh_and_technology_mod.fresh_seed": "Freshseed"
+  "item.fresh_and_technology_mod.pestal": "Pestal",
+  "item.fresh_and_technology_mod.blood_seed": "Blood_seed",
+  "item.fresh_and_technology_mod.blooddust": "Blood_dust",
+  "effect.fresh_and_technology_mod.internalbleed": "Internal bleed"
 }

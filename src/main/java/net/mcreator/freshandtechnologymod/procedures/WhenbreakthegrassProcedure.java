@@ -31,7 +31,7 @@ public class WhenbreakthegrassProcedure {
 		if (Math.random() >= 0.5 && ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.CRIMSON_ROOTS || (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.WEEPING_VINES
 				|| (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.CRIMSON_NYLIUM)) {
 			if (world instanceof ServerLevel _level) {
-				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(FreshAndTechnologyModModItems.FRESH_SEED.get()));
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(FreshAndTechnologyModModItems.BLOOD_SEED.get()));
 				entityToSpawn.setPickUpDelay(5);
 				_level.addFreshEntity(entityToSpawn);
 			}
