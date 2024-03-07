@@ -10,9 +10,12 @@ public class Internal_bleed_effect_1Procedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		FreshAndTechnologyModMod.queueServerWork(60, () -> {
-			if (entity instanceof LivingEntity _entity)
-				_entity.setHealth(-4);
-		});
+		double Number = 0;
+		for (int index0 = 0; index0 < 5; index0++) {
+			FreshAndTechnologyModMod.queueServerWork(20, () -> {
+				if (entity instanceof LivingEntity _entity)
+					_entity.setHealth((float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) - 4));
+			});
+		}
 	}
 }
